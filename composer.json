@@ -1,0 +1,27 @@
+{
+    "name": "magentoid/yaml",
+    "type": "library",
+    "description": "Loads and dumps YAML files",
+    "keywords": [],
+    "homepage": "https://magentoid.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gergely Hegybiro",
+            "email": "hegybirog@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": { "Magentoid\\Component\\Yaml\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "bin": [
+        "Resources/bin/yaml-lint"
+    ],
+    "minimum-stability": "dev"
+}
